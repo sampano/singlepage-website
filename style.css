@@ -148,9 +148,6 @@ body {
   transition: var(--transition);
 }
 
-/* .btn:is(:hover, :focus) {
-  transform: translate(-2px);
-} */
 .btn-primary {
   background: var(--linear-light);
   color: var(--white);
