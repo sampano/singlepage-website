@@ -165,7 +165,7 @@ body {
 }
 
 .section-text {
-  color: var(--cool-gray);
+  color: var(--white);
   font-size: var(--fs-6);
   line-height: 1.7;
   text-align: center;
@@ -265,14 +265,14 @@ body {
 }
 
 .email-field {
-  background: var(--ghost-white-2);
+  background: var(--white);
   padding: 17px 20px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
 .email-field:focus {
-  outline-color: var(--majorelle-blue);
+  outline-color: var(--bg-color-dark);
 }
 
 .hero .btn-primary {
