@@ -744,7 +744,7 @@ footer.logo {
   align-items: center;
   height: 440px;
   width: 200%;
-  transition: height 0.2s ease;
+  transition: var(--transition);
 }
 
 .user-container .user-form {
@@ -762,18 +762,17 @@ footer.logo {
 
 .user-container .signup {
   opacity: 0;
-  transition: opacity 0.09s ease;
+  transition: var(--transition);
 }
 .user-container.active .signup {
   opacity: 1;
-  transition: opacity 0.2s ease;
+  transition: var(--transition);
 }
 
 .user-container.active .login-forms {
   height: 600px;
 }
 .user-container .user-form .user-title {
-  /* position: relative; */
   font-size: 27px;
   font-weight: 600;
 }
@@ -816,15 +815,6 @@ footer.logo {
 .user-input-field input:is(:focus, :valid) {
   border-bottom-color: var(--super-dark);
 }
-
-/* .user-input-field i {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #999;
-  font-size: 23px;
-  transition: all 0.2s ease;
-} */
 
 .user-input-field input:is(:focus, :valid) ~ i {
   color: var(--super-dark);
